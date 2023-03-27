@@ -1,9 +1,9 @@
 pipeline {
+     agent any
      tools{
         // maven version
        maven 'mymaven'
     }
-    agent any
     stages{
     stage('clonerepo')
     {
