@@ -11,7 +11,7 @@ pipeline {
             git branch: 'main', url: 'https://github.com/Sonal0409/DevOpsCodeDemo.git'
         }
     }
-    stage(compile)
+    stage('compile')
     {
         steps{
             sh 'mvn compile'
