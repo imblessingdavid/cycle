@@ -39,7 +39,7 @@ pipeline {
              }
          }
      }
-     status(package)
+     stage("package")
      {
          steps{
              sh 'mvn package'
