@@ -1,6 +1,6 @@
 pipeline {
      tools{
-        \\ maven version
+        // maven version
        maven 'mymaven'
     }
     agent any
